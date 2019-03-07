@@ -1,0 +1,141 @@
+$white-color-theme:#FFF;
+$grey-color-theme:#e7e6e6;
+$black-color-theme:#000000;
+$second-color-theme:#993032;
+$first-color:#f8a228;
+$star-color-theme:#efce4a;
+
+
+/*
+%red-color {
+   color: $second-color-theme;
+}
+
+%orange-color {
+   color: $first-color;
+}*/
+
+
+.star-color {
+   color: $star-color-theme;
+}
+
+.font-site {
+   font-family: 'helvetica' !important;
+}
+
+.title_1 h4 {
+   //@extend %red-color;
+   border-bottom: 5px solid $first-color;
+}
+
+.title_2 h4 {
+   // @extend %red-color;
+   border-bottom: 5px solid $second-color-theme;
+}
+
+.events-options a h3,
+.card_1 h3,
+.news .content h3,
+.news .content .order li,
+.title_1 h4,
+.title_2 h4,
+.product h2,
+.red-color,
+.product-image-icon-shear span::before,
+.related-products .card-title1 {
+   color: $second-color-theme;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span,
+.btn {
+   background: $first-color;
+
+   &:hover {
+      background-color: $first-color;
+   }
+
+   &:focus {
+      background-color: $first-color;
+   }
+}
+
+.customNextBtn span::before,
+.customPrevBtn span::before,
+.triggerbtns2 .customNextBtn2 span::before,
+.triggerbtns2 .customPrevBtn2 span::before,
+.owl-theme .owl-dots .owl-dot.active span,
+.card_1 h5,
+.people-add-comment h4 {
+   color: $first-color;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+   color: $first-color;
+}
+
+.event-his ul,
+.product-item .media-related2 .btn-red,
+.owl-theme .owl-nav [class*=owl-]:hover,
+.owl-theme .owl-nav [class*=owl-],
+.btn_red {
+   background: $second-color-theme;
+}
+
+.card_1:after {
+   border-right: 2px solid rgba($black-color-theme, 0.13);
+}
+
+.events-options {
+   background: rgba($white-color-theme, 0.8);
+}
+
+.moduels-add,
+.owl-theme .owl-dots .owl-dot span {
+   background: $grey-color-theme;
+}
+
+.events-icons span::before,
+.events-icons2 span::before,
+.news .content .order .active {
+   color: $black-color-theme
+}
+
+.media-related {
+   background: $white-color-theme;
+}
+
+.media-related {
+   box-shadow: 0 0 25px $grey-color-theme;
+}
+
+.img-con {
+   background: $black-color-theme;
+}
+
+.btn-site,
+.news-title,
+.news-option-add h5,
+.right-img p,
+.left-img p,
+.news-option-add2 h5,
+.news-clock2,
+.left-img .news-enter-name2,
+.news-enter a,
+.news_1 .news_1-option .news_1-icons li,
+.news_1 .news_1-option h3,
+.news_1-2-option h4,
+.event-his ul,
+.events-img ul,
+.right-img .news-clock,
+.news_1-2-icons,
+.btn-large-theme,
+.news-option-add2 .news-enter-name-sec-news,
+.left-img .news-enter-name2 a,
+.right-img .news-enter-name a,
+.head-bg h2,
+.head-bg a,
+.mazyde a {
+   color: $white-color-theme;
+}

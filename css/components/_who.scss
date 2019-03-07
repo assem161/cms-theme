@@ -1,0 +1,28 @@
+.who{
+    margin-top: 2rem;
+    h2{
+        color:$sechead-color;
+        border-bottom: 1px solid #AAA;
+        line-height: 4rem;
+        margin-bottom: 20px;        
+    }
+    &-describtion{
+        p{
+            line-height: 2rem;
+        }
+    }
+    &-image{
+        &-slider{
+            img{
+                width: 100%;
+                height: auto;
+                @include responed(tabletport){
+                    margin-right: 0%;
+                }
+                @include responed(phone){
+                    margin-right: 0%;
+                }                
+            }  
+        }       
+    }
+}

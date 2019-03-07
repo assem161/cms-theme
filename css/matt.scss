@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+// mixins
+@import "components/mixins";
+//@import "components/mixins responsive";
+
+@import "components/colors";
+//@import "components/color-classes";
+@import "components2/heights";
+
+// Color
+@import "components/color-variables";
+//@import "components/color-classes";
+
+// Variables;
+@import "components/variables";
+
+// Reset
+@import "components/normalize";
+// islamic color varaiables
+@import "components/islamiccolor-varaible";
+
+// components
+@import "components/global";
+//@import "components/badges";
+@import "components/icons";
+@import "components/grid";
+//@import "components/navbar";
+@import "components/typography";
+@import "components/transitions";
+@import "components/cards";
+//@import "components/toast";
+@import "components/tabs";
+@import "components/tooltip";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/waves";
+@import "components/modal";
+@import "components/collapsible";
+@import "components/chips";
+@import "components/materialbox";
+@import "components/forms/forms";
+@import "components/table_of_contents";
+@import "components/sidenav";
+//@import "components/preloader";
+@import "components/slider";
+@import "components/carousel";
+@import "components/tapTarget";
+@import "components/pulse";
+@import "components/datepicker";
+@import "components/owl.carousel";
+// stars rating 
+@import "components/starsRating";
+@import "components/navpone";
+//@import "components/timepicker";
+@import "components/builder";
+@import "components/myheader";
+@import "components/products";
+@import "components/media";
+@import "components/who";
+@import "components/relatedproducts";
+
+// components 2 head page
+
+@import "components2/head";
+
+// components 2 head page
+
+@import "components2/headtexts";
+@import "components2/grid";
+@import "components2/adver";
+@import "components2/gradients-colors";
+@import "components2/newssection";
+@import "components2/falit";
+@import "components2/products-slider";
+@import "components2/events";
+
+
+
+// shop page 
+@import "components/shop";
+
+
+@import "components/mystyle";

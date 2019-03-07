@@ -1,0 +1,29 @@
+.right-img-newssec {
+  padding: 0px 10px 10px 0px !important;
+}
+
+.truncate2 {
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  height: 6%;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.truncate3 {
+  display: block;
+  display: -webkit-box;
+  max-width: 46%;
+  height: 25.2px;
+  margin: 0 auto;
+  font-size: 26px;
+  line-height: 1.4;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*# sourceMappingURL=newssection.css.map */

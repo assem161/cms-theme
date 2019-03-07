@@ -1,0 +1,83 @@
+.related-products {
+    h3 {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .card {
+        &-image {
+            overflow: hidden;
+
+            img {
+                height: 156% !important;
+            }
+        }
+
+        .card-content-padding {}
+
+        &-title1 {
+            color: $sechead-color;
+            font-size: 1.2rem;
+            position: relative;
+        }
+
+        .abuof {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+            position: relative;
+        }
+
+        .card-contentstarsPricing {
+            position: relative;
+
+            .stars {
+                padding-top: 13px;
+            }
+        }
+
+        .pricing {
+            padding: 10px 10px;
+            border-radius: 31px;
+            display: inline-block;
+            float: left;
+
+            a {
+                border-radius: 2.5rem;
+                padding: 0.5rem 1rem;
+            }
+        }
+    }
+}
+
+
+.media-related {
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 13px;
+
+    .image-related {
+        overflow: hidden;
+        height: 30vh;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+
+    .card-con {
+        padding: 0 15px;
+        margin-top: 13px;
+
+        .stars {
+            margin-top: 15px;
+        }
+
+        .pricing {
+            border-radius: 46px;
+            padding: 0.8rem 0.5rem;
+        }
+    }
+
+}

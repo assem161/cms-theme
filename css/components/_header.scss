@@ -1,0 +1,21 @@
+{
+    background: url('../img/bg-main.jpg') top center;
+    bottom:0;
+    left: 0;
+    position: absolute;
+    height: 580px;
+    width: 100%;
+    .stors{
+        position: absolute;
+        background-color: #ddd;
+        width: 350px;
+        height: 100px;
+        bottom: 20px;
+        right: 350px;
+        padding-top: 10px;
+        img{
+            padding:0px 3px; 
+            margin-right: 20px;
+        }
+    }
+}
