@@ -1,0 +1,62 @@
+.gradient-background-orange {
+    background: -moz-linear-gradient(-21deg, #f7941d 0%, #f8a228 24%, rgba(0, 0, 0, 0) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-21deg, #f7941d 0%, #f8a228 24%, rgba(0, 0, 0, 0) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(-21deg, #f7941d 0%, #f8a228 24%, rgba(0, 0, 0, 0) 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6f7941d', endColorstr='#00000000', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+    margin-top: -300px;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+
+}
+
+.gradient-background-black {
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.01) 75%, rgba(0, 0, 0, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.01) 75%, rgba(0, 0, 0, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.01) 75%, rgba(0, 0, 0, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+    margin-top: -300px;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}
+
+.gradient-background-black-deg {
+    background: -moz-linear-gradient(-21deg, #000000 0%, #000000 24%, rgba(0, 0, 0, 0) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-21deg, #000000 0%, #000000 24%, rgba(0, 0, 0, 0) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(-21deg, #000000 0%, #000000 24%, rgba(0, 0, 0, 0) 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6f7941d', endColorstr='#00000000', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    margin-top: 0;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}
+
+.gradient-background-black-falit {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+    /* IE6-9 */
+    height: 138px;
+    width: 100%;
+    position: absolute;
+
+}

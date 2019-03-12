@@ -1,0 +1,23 @@
+.testimonial-section {
+  background: url("../img/mark.jpg") no-repeat center center;
+  background-size: 100% 100%;
+}
+.testimonial-section .testimonial_user {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.testimonial-section h3 {
+  font-family: Helvetica, sans-serif;
+}
+.testimonial-section p {
+  font-family: "GE SS Unique Light", sans-serif;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+}
+
+/*# sourceMappingURL=testimonial.css.map */

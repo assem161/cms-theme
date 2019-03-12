@@ -1,141 +1,124 @@
 $white-color-theme:#FFF;
 $grey-color-theme:#e7e6e6;
+$shadow-color-theme:#d8d8d8;
 $black-color-theme:#000000;
-$second-color-theme:#993032;
-$first-color:#f8a228;
-$star-color-theme:#efce4a;
+$main-color:#00bef3;
+$main-color2:#2176c0;
+$item-color:#2e3192;
+$item-color2:#8338ec;
+$item-color3:#3a86ff;
 
 
-/*
-%red-color {
-   color: $second-color-theme;
-}
-
-%orange-color {
-   color: $first-color;
-}*/
-
-
-.star-color {
-   color: $star-color-theme;
-}
-
-.font-site {
-   font-family: 'helvetica' !important;
-}
-
-.title_1 h4 {
-   //@extend %red-color;
-   border-bottom: 5px solid $first-color;
-}
-
-.title_2 h4 {
-   // @extend %red-color;
-   border-bottom: 5px solid $second-color-theme;
-}
-
-.events-options a h3,
-.card_1 h3,
-.news .content h3,
-.news .content .order li,
-.title_1 h4,
-.title_2 h4,
-.product h2,
-.red-color,
-.product-image-icon-shear span::before,
-.related-products .card-title1 {
-   color: $second-color-theme;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span,
-.btn {
-   background: $first-color;
-
-   &:hover {
-      background-color: $first-color;
-   }
-
-   &:focus {
-      background-color: $first-color;
-   }
-}
-
-.customNextBtn span::before,
-.customPrevBtn span::before,
-.triggerbtns2 .customNextBtn2 span::before,
-.triggerbtns2 .customPrevBtn2 span::before,
-.owl-theme .owl-dots .owl-dot.active span,
-.card_1 h5,
-.people-add-comment h4 {
-   color: $first-color;
+.btn,
+.owl-theme .owl-dots .owl-dot span{
+   background:$main-color;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-   color: $first-color;
+   background: $white-color-theme;
+   border:1px solid $main-color;
 }
 
-.event-his ul,
-.product-item .media-related2 .btn-red,
-.owl-theme .owl-nav [class*=owl-]:hover,
-.owl-theme .owl-nav [class*=owl-],
-.btn_red {
-   background: $second-color-theme;
-}
-
-.card_1:after {
-   border-right: 2px solid rgba($black-color-theme, 0.13);
-}
-
-.events-options {
-   background: rgba($white-color-theme, 0.8);
-}
-
-.moduels-add,
-.owl-theme .owl-dots .owl-dot span {
+.title_1:after,.title_2::after{
    background: $grey-color-theme;
 }
 
-.events-icons span::before,
-.events-icons2 span::before,
-.news .content .order .active {
-   color: $black-color-theme
+.news_2-1 li,
+.news_2 ul li,
+.title_2 span,
+.item ul li:nth-child(3)
+{
+   color:$main-color;
 }
 
-.media-related {
+.title_2 h3,
+.item-options h4
+{
+   color:$main-color2;
+}
+
+.news_2-1 span,
+.news_2-1 button,
+.news_2 button,
+.news_2 span,
+.news_2 h3,
+.news_2-1 h4,
+.news_2 P,
+.title h3,
+.item ul,
+.table-item h3
+{
+   color:$white-color-theme;
+}
+
+
+// body of pricing table
+
+.table-body{
    background: $white-color-theme;
 }
-
-.media-related {
-   box-shadow: 0 0 25px $grey-color-theme;
+// items -------------
+.item-options{
+   background: rgba($white-color-theme, 0.8);
 }
 
-.img-con {
-   background: $black-color-theme;
+.item {
+   box-shadow: 0 9px 16px $shadow-color-theme;
 }
 
-.btn-site,
-.news-title,
-.news-option-add h5,
-.right-img p,
-.left-img p,
-.news-option-add2 h5,
-.news-clock2,
-.left-img .news-enter-name2,
-.news-enter a,
-.news_1 .news_1-option .news_1-icons li,
-.news_1 .news_1-option h3,
-.news_1-2-option h4,
-.event-his ul,
-.events-img ul,
-.right-img .news-clock,
-.news_1-2-icons,
-.btn-large-theme,
-.news-option-add2 .news-enter-name-sec-news,
-.left-img .news-enter-name2 a,
-.right-img .news-enter-name a,
-.head-bg h2,
-.head-bg a,
-.mazyde a {
-   color: $white-color-theme;
+.table-item_1{
+   background:$item-color;
 }
+.table-item_2{
+   background: $main-color;
+}
+.table-item_3{
+   background: $item-color2;
+}
+
+.price{
+   color: $item-color;
+}
+.price_2{
+   color: $main-color; 
+} 
+.price_3{
+   color: $item-color2; 
+}
+
+.table-options{
+   p:nth-child(1){
+       color:$black-color-theme;
+   }
+   p:nth-child(2){
+       color:$item-color;
+   }        
+}
+.table-options_2{
+   p:nth-child(1){
+       color:$black-color-theme;
+   }
+   p:nth-child(2){
+       color:$item-color3;
+   }        
+}
+.table-options_3{
+   p:nth-child(1){
+       color:$black-color-theme;
+   }
+   p:nth-child(2){
+       color:$item-color2;
+   }        
+}
+
+//End body of pricing table
+
+
+/* testeminoil section colors */
+
+.testimonial-section h2,
+.testimonial h3{
+   color:$item-color2;
+}
+
+/* end testeminoil section colors */

@@ -1,0 +1,37 @@
+.ht1{
+    height:  12.3vw;
+    @include responed(tabletland){
+        height: 21.1vw;
+    }    
+    @include responed(tabletport){
+        height: 31.1vw;
+    }    
+    @include responed(phone){
+        height: 66vw;
+    }    
+}
+
+.ht2{
+    height: 25.3vw;
+    @include responed(tabletland){
+        height: 43vw;
+    }    
+    @include responed(tabletport){
+        height: 40vw;
+    }
+    @include responed(phone){
+        height: 66vw;
+    }
+}
+
+.ht3{
+    height: 60vw;
+}
+
+.ht4{
+    height: 90vw;
+}
+
+.ht5{
+    height: 100vw;
+}

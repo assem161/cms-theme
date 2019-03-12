@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
-// mixins
+// fixed of sites --------
 @import "components/mixins";
+@import "components/fixed";
+@import "components/heights";
+@import "components/gradients-colors";
 //@import "components/mixins responsive";
 
 @import "components/colors";
 //@import "components/color-classes";
-@import "components2/heights";
 
 // Color
 @import "components/color-variables";
@@ -42,6 +44,7 @@
 @import "components/forms/forms";
 @import "components/table_of_contents";
 @import "components/sidenav";
+
 //@import "components/preloader";
 @import "components/slider";
 @import "components/carousel";
@@ -49,36 +52,13 @@
 @import "components/pulse";
 @import "components/datepicker";
 @import "components/owl.carousel";
-// stars rating 
-@import "components/starsRating";
-@import "components/navpone";
-//@import "components/timepicker";
-@import "components/builder";
-@import "components/myheader";
-@import "components/products";
-@import "components/media";
-@import "components/who";
-@import "components/relatedproducts";
 
-// components 2 head page
-
-@import "components2/head";
-
-// components 2 head page
-
-@import "components2/headtexts";
-@import "components2/grid";
-@import "components2/adver";
-@import "components2/gradients-colors";
-@import "components2/newssection";
-@import "components2/falit";
-@import "components2/products-slider";
-@import "components2/events";
-
-
-
-// shop page 
-@import "components/shop";
+// start of site style -------------------------------------------------
+@import "site-style/grid";
+@import "site-style/title";
+@import "site-style/item";
+@import "site-style/pricingtable";
+@import "site-style/testimonial";
 
 
 @import "components/mystyle";
