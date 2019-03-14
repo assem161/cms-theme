@@ -1,0 +1,136 @@
+.ht1{
+    height:  12.5vw;
+    @include responed(tabletland){
+        height: 21.1vw;
+    }    
+    @include responed(tabletport){
+        height: 31.1vw;
+    }    
+    @include responed(phone){
+        height: 66vw;
+    }    
+}
+
+.ht2{
+    height: 25.3vw;
+    @include responed(tabletland){
+        height: 43vw;
+    }    
+    @include responed(tabletport){
+        height: 40vw;
+    }
+    @include responed(phone){
+        height: 66vw;
+    }
+}
+
+
+/* right news section */
+.ht2 {
+    height: 24.7vw;
+    @include responed(tabletland){
+        height: 38.7vw;
+    }     
+    @include responed(tabletport){
+        height: 50vw;
+    }
+    @include responed(phone){
+        height: 50vw;
+    }    
+}
+
+.ht5 {
+    height: 12.01vw;
+    @include responed(tabletland){
+        height: 19vw;
+    }       
+    @include responed(tabletport){
+        height: 30vw;
+    }    
+    @media (max-width: 600px){
+        height: 45vw;
+    }
+}
+
+/* news end heights */
+/* product slider height */
+.ht4 {
+    height: 12vw;
+    @include responed(tabletland){
+        height: 22vw;
+    }      
+    @include responed(tabletport){
+        height: 25vw;
+    }      
+    @include responed(phone){
+        height: 70vw;
+    }
+}
+
+/* end product slider height */
+
+.ht3 {
+    height: 25vw;
+    @include responed(tabletport){
+        height: 50vw;
+    }  
+    @include responed(phone) {
+        height: 98vw;
+    }
+}
+
+.ht35{
+    height: 36.6vw;
+    @include responed(tabletland){
+        height: 46vw;
+    }        
+    @include responed(tabletport){
+        height: 50.29vw;
+    }        
+    @include responed(phone){
+        height: 50.29vw;
+    }    
+}
+
+.ht36{
+    height: 7.29vw;
+    @include responed(tabletland){
+        height: 7vw;
+    }        
+    @include responed(tabletport){
+        height: 50.29vw;
+    }        
+    @include responed(phone){
+        height: 50.29vw;
+    }    
+}
+
+.ht37{
+    height: 34vw;
+    @include responed(tabletland){
+        height: 46vw;
+    }      
+    @include responed(tabletport){
+        height: 50.29vw;
+    }    
+    @include responed(phone){
+        height: 50.29vw;
+    }    
+}
+
+.ht47{
+    height: 11.29vw;
+    @include responed(tabletland){
+        height: 15.3vw;
+    }        
+    @include responed(tabletport){
+        height: 30.3vw;
+    }        
+    @include responed(phone){
+        height: 50.29vw;
+    }
+}
+
+.ht7{
+    height: 13.2vw;
+}

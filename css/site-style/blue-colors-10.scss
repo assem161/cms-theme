@@ -1,0 +1,137 @@
+$white-color-theme:#FFF;
+$grey-color-theme:#e7e6e6;
+$shadow-color-theme:#d8d8d8;
+$black-color-theme:#000000;
+$main-color:#00bef3;
+$main-color2:#2176c0;
+$item-color:#2e3192;
+$item-color2:#8338ec;
+$item-color3:#3a86ff;
+$gradient-background: linear-gradient(135deg, rgba(23, 122, 191, 0.9) 0%, rgba(111, 99, 203, 0.9) 100%);
+
+.item-p ul{
+   background: $main-color2;
+}
+
+.btn,
+.owl-theme .owl-dots .owl-dot span{
+   background:$main-color;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+   background: $white-color-theme;
+   border:1px solid $main-color;
+}
+
+.title_4:after,.title_2::after{
+   background: $grey-color-theme;
+}
+
+.news_2-1 li,
+.news_2 ul li,
+.title_2 span,
+.item-p ul li:nth-child(3)
+{
+   color:$main-color;
+}
+
+.title_2 h3,
+.item-options h4
+{
+   color:$main-color2;
+}
+
+.news_2-1 span,
+.news_2-1 button,
+.news_2 button,
+.news_2 span,
+.news_2 h3,
+.news_2-1 h4,
+.news_2 P,
+.title h3,
+.item-p  ul,
+.table-item h3
+{
+   color:$white-color-theme;
+}
+
+// news background color 
+.falitye{
+   background: $gradient-background, url('../img/backfality1.jpg') no-repeat center center;;
+}
+// start of table price 
+.table-price{
+	background: $gradient-background, url('../img/backfalit21.jpg')  no-repeat center center;
+}
+
+
+// body of pricing table
+
+.table-body{
+   background: $white-color-theme;
+}
+// items -------------
+.item-options{
+   background: rgba($white-color-theme, 0.8);
+}
+
+.item {
+   box-shadow: 0 9px 16px $shadow-color-theme;
+}
+
+.table-item_1{
+   background:$item-color;
+}
+.table-item_2{
+   background: $main-color;
+}
+.table-item_3{
+   background: $item-color2;
+}
+
+.price{
+   color: $item-color;
+}
+.price_2{
+   color: $main-color; 
+} 
+.price_3{
+   color: $item-color2; 
+}
+
+.table-options{
+   p:nth-child(1){
+       color:$black-color-theme;
+   }
+   p:nth-child(2){
+       color:$item-color;
+   }        
+}
+.table-options_2{
+   p:nth-child(1){
+       color:$black-color-theme;
+   }
+   p:nth-child(2){
+       color:$item-color3;
+   }        
+}
+.table-options_3{
+   p:nth-child(1){
+       color:$black-color-theme;
+   }
+   p:nth-child(2){
+       color:$item-color2;
+   }        
+}
+
+//End body of pricing table
+
+
+/* testeminoil section colors */
+
+.testimonial-section h2,
+.testimonial h3{
+   color:$item-color2;
+}
+
+/* end testeminoil section colors */

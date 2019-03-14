@@ -1,0 +1,51 @@
+$white-color-theme:#FFF;
+$grey-color-theme:#a8a8a8;
+$black-color-theme:#000000;
+$main-color:#bb1919;
+$main-color2:#fe0000;
+
+
+.title_12 h3{
+   color: $main-color;
+}
+.btn{
+   background:$main-color;
+}
+
+.title_8,.title_5,.title_121 
+{  &:before,
+	&:after {
+      background: $grey-color-theme;} }
+      
+.news_26 h3,
+.news_26 ul,
+.news_26_1-2 ul,
+.news_26_1-2 h4,
+.news_4 h3,
+.news_4 ul,
+.news_5 .news_5-options h4{
+   color:$white-color-theme;
+}
+
+.news_4_1 h4,.news_4_1 ul{
+   color: $black-color-theme;
+}
+
+.news_26 h3,.news_26_1-2 h4,.news_4 h3{
+   border-right: 6px solid $white-color-theme;
+}
+.news_4_1 h4{
+   border-right: 6px solid $main-color2;
+}
+.news_4_1-2-options{
+   background: $white-color-theme;
+} 
+.news_26_1-2 .image-mask,
+.news_4_1-2 .image-mask{
+   background: $black-color-theme;
+}
+
+.news_5 .news_5-options{
+   background: rgba($main-color2, $alpha: 0.6)
+}
+

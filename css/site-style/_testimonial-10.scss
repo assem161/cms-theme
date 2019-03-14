@@ -1,0 +1,21 @@
+.testimonial-section{
+    background: url('../img/mark.jpg') no-repeat center center;
+    background-size: 100% 100%;
+    .testimonial_user{
+        height: 50px;
+        width: 50px;
+        display: inline-block;  
+    }
+    h3{
+        font-family: Helvetica, sans-serif;
+    } 
+    p{
+        font-family: Helvetica, sans-serif;
+    }      
+}
+
+
+.owl-theme .owl-dots .owl-dot span{
+	width: 10px;
+	height: 10px;    
+}

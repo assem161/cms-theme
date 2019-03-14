@@ -1,0 +1,170 @@
+/*
+%red-color {
+   color: $second-color-theme;
+}
+
+%orange-color {
+   color: $first-color;
+}*/
+.star-color {
+  color: #efce4a;
+}
+
+.title_11 h4 {
+  border-bottom: 5px solid #f8a228;
+}
+
+.title_22 h4 {
+  border-bottom: 5px solid #993032;
+}
+
+.title_11:before, .title_11:after,
+.title_22:before,
+.title_22:after {
+  background: #e7e6e6;
+}
+
+.events-options a h3,
+.card_1 h3,
+.news .content h3,
+.news .content .order li,
+.title_11 h4,
+.title_22 h4,
+.product h2,
+.red-color,
+.product-image-icon-shear span::before,
+.related-products .card-title1,
+.title_3 h2,
+.news .content .order li,
+.who h2 {
+  color: #993032;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span,
+.btn {
+  background: #f8a228;
+}
+.owl-theme .owl-dots .owl-dot.active span:hover,
+.owl-theme .owl-dots .owl-dot:hover span:hover,
+.btn:hover {
+  background-color: #f8a228;
+}
+.owl-theme .owl-dots .owl-dot.active span:focus,
+.owl-theme .owl-dots .owl-dot:hover span:focus,
+.btn:focus {
+  background-color: #f8a228;
+}
+
+.customNextBtn span::before,
+.customPrevBtn span::before,
+.triggerbtns2 .customNextBtn2 span::before,
+.triggerbtns2 .customPrevBtn2 span::before,
+.owl-theme .owl-dots .owl-dot.active span,
+.card_1 h5,
+.people-add-comment h4 {
+  color: #f8a228;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  color: #f8a228;
+}
+
+.event-his ul,
+.product-item .media-related2 .btn-red,
+.owl-theme .owl-nav [class*=owl-]:hover,
+.owl-theme .owl-nav [class*=owl-],
+.btn_red {
+  background: #993032;
+}
+
+.card_1:after {
+  border-right: 2px solid rgba(0, 0, 0, 0.13);
+}
+
+.events-options {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.moduels-add,
+.owl-theme .owl-dots .owl-dot span {
+  background: #e7e6e6;
+}
+
+.events-icons span::before,
+.events-icons2 span::before,
+.news .content .order .active {
+  color: #000000;
+}
+
+.media-related {
+  background: #FFF;
+}
+
+.media-related {
+  box-shadow: 0 0 25px #e7e6e6;
+}
+
+.img-con {
+  background: #000000;
+}
+
+.btn-site,
+.news-title,
+.news-option-add h5,
+.right-img p,
+.left-img p,
+.news-option-add2 h5,
+.news-clock2,
+.left-img .news-enter-name2,
+.news-enter a,
+.news_2-1 h3,
+.news_2 P,
+.news_2 h3,
+.news_1 .news_1-option .news_1-icons li,
+.news_1 .news_1-option h3,
+.news_1-2-option h4,
+.news_1 h3,
+.news_1 ul,
+.news_2 ul,
+.news_1-2 h3,
+.news_1-2 ul,
+.event-his ul,
+.events-img ul,
+.right-img .news-clock,
+.news_1-2-icons,
+.btn-large-theme,
+.news_1 button,
+.news_2 button,
+.news_1-2 button,
+.news_2-1 button,
+.news_2-1 ul li,
+.news_2 ul li,
+.card_1 .btn_red,
+.head-bg h2,
+.head-bg a,
+.title_11 a {
+  color: #FFF;
+}
+
+.head-overlay-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #811802 0%, #852903 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #811802 0%, #852903 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #811802 0%, #852903 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#811802", endColorstr="#852903", GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=orange-colors-10.css.map */

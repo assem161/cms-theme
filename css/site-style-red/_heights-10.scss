@@ -1,0 +1,81 @@
+.ht1{
+    height:  12.3vw;
+    @include responed(tabletland){
+        height: 21.1vw;
+    }    
+    @include responed(tabletport){
+        height: 31.1vw;
+    }    
+    @include responed(phone){
+        height: 66vw;
+    }    
+}
+
+.ht2{
+    height: 25.3vw;
+    @include responed(tabletland){
+        height: 43vw;
+    }    
+    @include responed(tabletport){
+        height: 40vw;
+    }
+    @include responed(phone){
+        height: 66vw;
+    }
+}
+
+.ht3{
+    height: 34vw;
+    @include responed(tabletland){
+        height: 46vw;
+    }      
+    @include responed(tabletport){
+        height: 50.29vw;
+    }    
+    @include responed(phone){
+        height: 50.29vw;
+    }    
+}
+
+.ht4{
+    height: 11.29vw;
+    @include responed(tabletland){
+        height: 15.3vw;
+    }        
+    @include responed(tabletport){
+        height: 30.3vw;
+    }        
+    @include responed(phone){
+        height: 50.29vw;
+    }
+}
+
+.ht5{
+    height: 36.6vw;
+    @include responed(tabletland){
+        height: 46vw;
+    }        
+    @include responed(tabletport){
+        height: 50.29vw;
+    }        
+    @include responed(phone){
+        height: 50.29vw;
+    }    
+}
+
+.ht6{
+    height: 7.29vw;
+    @include responed(tabletland){
+        height: 7vw;
+    }        
+    @include responed(tabletport){
+        height: 50.29vw;
+    }        
+    @include responed(phone){
+        height: 50.29vw;
+    }    
+}
+
+.ht7{
+    height: 13.2vw;
+}

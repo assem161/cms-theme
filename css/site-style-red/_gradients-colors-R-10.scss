@@ -1,0 +1,16 @@
+.gradient-background-red {
+    background: -moz-linear-gradient(-21deg, #ff0000 0%, #ff0000 24%, rgba(0, 0, 0, 0) 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-21deg, #ff0000 0%, #ff0000 24%, rgba(0, 0, 0, 0) 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(-21deg, #ff0000 0%, #ff0000 24%, rgba(0, 0, 0, 0) 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#007db9e8',GradientType=1 ); 
+    /* IE6-9 fallback on horizontal gradient */
+
+    margin-top: -300px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}

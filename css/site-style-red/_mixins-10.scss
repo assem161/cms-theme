@@ -7,6 +7,14 @@
 	------------------------------------------------
 */
 
+@mixin animate($prop, $timeadd){
+    -webkit-transition: $prop $timeadd ease;
+    -moz-transition: $prop $timeadd ease;
+    -ms-transition: $prop $timeadd ease;
+    -o-transition: $prop $timeadd ease;
+    transition: $prop $timeadd ease;
+}
+
 @mixin responed($breakPoint){
   @if $breakPoint == phone {
     @media(max-width:600px){ @content };

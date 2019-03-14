@@ -1,0 +1,7 @@
+.adver{
+	padding:20px 0;
+	height: 25vw;
+    @include responed(phone){
+        height: 45vw;
+    }	
+}

@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 // fixed of sites --------
-@import "components/mixins";
-@import "components/fixed";
-@import "components/heights";
-@import "components/gradients-colors";
+@import "site-style/mixins-10";
+@import "site-style/fixed-10";
+@import "site-style/heights-10";
+@import "site-style/gradients-colors-10";
 //@import "components/mixins responsive";
 
-@import "components/colors";
+@import "site-style/blue-colors-10";
+@import "site-style-orange/orange-colors-10";
 //@import "components/color-classes";
 
 // Color
@@ -53,12 +54,28 @@
 @import "components/datepicker";
 @import "components/owl.carousel";
 
-// start of site style -------------------------------------------------
-@import "site-style/grid";
-@import "site-style/title";
-@import "site-style/item";
-@import "site-style/pricingtable";
-@import "site-style/testimonial";
+// start of site orange style -------------------------------------------------
+@import "site-style-orange/titles-10";
+@import "site-style-orange/gridN-10";
+@import "site-style-orange/head-10";
+@import "site-style-orange/newssection-10";
+@import "site-style-orange/adver-10";
+@import "site-style-orange/falit-10";
+@import "site-style-orange/products-slider-10";
 
+// start of site style -------------------------------------------------
+@import "site-style/grid-10";
+@import "site-style/title-10";
+@import "site-style/item-10";
+@import "site-style/pricingtable-10";
+@import "site-style/testimonial-10";
+
+// start of site Red style -------------------------------------------------
+@import "site-style-red/Red-colors-10";
+@import "site-style-red/gradients-colors-R-10";
+@import "site-style-red/titles-R-10";
+@import "site-style-red/gridR-10";
+@import "site-style-red/grid1-10";
+@import "site-style-red/grid2-10";
 
 @import "components/mystyle";
